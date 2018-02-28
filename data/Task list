@@ -29,3 +29,5 @@ The data is just too less to train a RNN from scratch. Unlike CNNs I can not see
   Some of the classes have less than 10 samples (as low as 4). Practically impossible to train a deep architecture. Can we train maybe a single or double layer network?
 
 What architecture (we will need to understand RNN better).
+
+Are there any pre-trained RNNs available like those in Keras, on trajectory data?
