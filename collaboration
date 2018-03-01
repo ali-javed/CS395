@@ -1,0 +1,19 @@
+
+Questions:
+How will we input the 2d data 2 the RNN? (At the moment, I am only classifying stream flow rate, or sediment flow).
+Kevin: Found something. Try 3d CNN, p
+
+
+How to reformat numerical float data to be input to RNN. Is float same as integer?
+Safwan: Float is fine input to RNN.
+
+
+The data is just too less to train a RNN from scratch. Unlike CNNs I can not seem to find a trajectory pre-trained RNN.
+  Some of the classes have less than 10 samples (as low as 4). Practically impossible to train a deep architecture. Can we train maybe a single or double layer network?
+Kevin: retrained motion tracking RNN
+
+
+What architecture (we will need to understand RNN better).
+
+Are there any pre-trained RNNs available like those in Keras, on trajectory data?
+Kevin: Found something
